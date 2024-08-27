@@ -1,0 +1,15 @@
+{
+	"id": "b984c308-d753-45c2-88c1-1531133c31e6",
+	"values": [
+		{
+			"key": "sampleurl",
+			"value": "http://httpbin.org",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-08-24T15:11:57.407Z",
+	"_postman_exported_using": "Postman/11.9.2"
+}

@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "c8d8e9e1-b42e-4f82-a092-8f6989119b93",
+		"name": "samplecollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19382471",
+		"_collection_link": "https://gold-moon-614262.postman.co/workspace/PostmanWork2024~7a59ec92-3bd4-4ef5-93df-f993edf0034b/collection/19382471-c8d8e9e1-b42e-4f82-a092-8f6989119b93?action=share&source=collection_link&creator=19382471"
+	},
+	"item": [
+		{
+			"name": "samplerequest",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Trina\",\r\n    \"CompanyName\": \"ServiceNow\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{sampleurl}}/post",
+					"host": [
+						"{{sampleurl}}"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

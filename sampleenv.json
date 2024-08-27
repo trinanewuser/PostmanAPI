@@ -1,0 +1,15 @@
+{
+	"id": "6b30c1df-652a-4647-97d2-495e54bcc343",
+	"name": "sampleenv",
+	"values": [
+		{
+			"key": "sampleurlenv",
+			"value": "http://httpbin.org",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-08-24T15:02:43.336Z",
+	"_postman_exported_using": "Postman/11.9.2"
+}
